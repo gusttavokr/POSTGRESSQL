@@ -1,12 +1,11 @@
 <div align="center">
-<!--   <img width="200"
+  <img width="200"
     alt="Java Logo"
-    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-    /> -->
-  <h1>Estudando Banco de Dados com PostgreSQL/h1>
+    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg"
+    />
+  <h1>Estudando Banco de Dados com PostgreSQL</h1>
   Repositório de estudos para PostgreSQL.
 </div>
-
 
 ## O que é um Banco de Dados?
 Resumidamente, um banco de dados é um conjuto de tabelas as quais armazenam as informações. E cada tabela está contida em um banco de dados.
@@ -31,3 +30,9 @@ Existem alguns tipos der bancos de dados, como os bancos de dados relacionais, p
 - SQLite;
 - Microsoft SQL Server;
 - Oracle;
+
+## Como baixar o postgreSQL?
+Pelo windows você pode entrar pelo site.\
+Pelo linux você usa:\
+sudo apt install postgresql postgresql-contrib\\
+Em seguida, use: psql --version para ver se baixou mesmo
