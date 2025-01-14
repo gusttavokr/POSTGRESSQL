@@ -1,4 +1,4 @@
-# POSTGRESQL
+# PostgreSQL
 Resumidamente, um banco de dados é um conjuto de tabelas as quais armazenam as informações. E cada tabela está contida em um banco de dados.
 
 Além disso, pode haver um sistema com vários bancos de dados. Chamado Sistema Gerenciador de Banco de Dados:\
