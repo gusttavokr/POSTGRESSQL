@@ -36,3 +36,8 @@ Pelo windows você pode entrar pelo site.\
 Pelo linux você usa:\
 sudo apt install postgresql postgresql-contrib\\
 Em seguida, use: psql --version para ver se baixou mesmo
+
+## Alguns termos técnicos
+PK AI - Chave primária para cada indivíduo
+NN (Not Null) - Rejeitar um registro sem valor para essa coluna. 
+Self Join - Categorias "recursivas"
