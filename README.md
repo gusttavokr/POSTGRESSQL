@@ -34,7 +34,10 @@ Existem alguns tipos der bancos de dados, como os bancos de dados relacionais, p
 ## Como baixar o postgreSQL?
 Pelo windows você pode entrar pelo site.\
 
-Pelo linux você faz:
+Pelo linux(Ubuntu), você pode seguir esse procedimento:
+https://youtu.be/cdhpmaa4YJE?si=ZTrlQnpYAwVzd3v-
+
+Caso ocorra algum problema, ao instalar o postgresql, invés de postgresql-15, coloque 16.
 
 
 ## Alguns termos técnicos
