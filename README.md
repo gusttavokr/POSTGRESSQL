@@ -41,9 +41,9 @@ Caso ocorra algum problema, ao instalar o postgresql, invés de postgresql-15, c
 
 
 ## Alguns termos técnicos
-PK AI - Chave primária para cada indivíduo
-NN (Not Null) - Rejeitar um registro sem valor para essa coluna. 
-Self Join - Categorias "recursivas"
+- PK AI - Chave primária para cada indivíduo
+- NN (Not Null) - Rejeitar um registro sem valor para essa coluna. 
+- Self Join - Categorias "recursivas"
 
 
 ## Comandos usando Postgres
