@@ -52,9 +52,9 @@ Não sei se são comandos gerais ou só pelo ubuntu, mas vou anotar os comandos 
 psql - ativa os postgres
 \password (nome do usuario) - vc muda a senha 
 
-sudo -u postgres psql - entrar no postgres (acho que quando ja criado)
-\l - listar todos os databases
-CREATE DATABASE (nome do database)- autoexplicativo
-\c (nome do database) - conectando ao database
-\dt - exibir as tabelas do database
-CREATE TABLE funcionários (id SERIAL PRIMARY KEY, name VARCHAR(50), birth DATE) - cria uma tabela com nome **funcionários**, id serial(identificador da tabela), daí em diante são as colunas que eu posso criar
+1. sudo -u postgres psql - entrar no postgres (acho que quando ja criado)
+2. \l - listar todos os databases
+3. CREATE DATABASE (nome do database)- autoexplicativo
+4. \c (nome do database) - conectando ao database
+5. \dt - exibir as tabelas do database
+6. CREATE TABLE funcionários (id SERIAL PRIMARY KEY, name VARCHAR(50), birth DATE) - cria uma tabela com nome **funcionários**, id serial(identificador da tabela), daí em diante são as colunas que eu posso criar
