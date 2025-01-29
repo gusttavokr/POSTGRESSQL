@@ -44,3 +44,17 @@ Caso ocorra algum problema, ao instalar o postgresql, invés de postgresql-15, c
 PK AI - Chave primária para cada indivíduo
 NN (Not Null) - Rejeitar um registro sem valor para essa coluna. 
 Self Join - Categorias "recursivas"
+
+
+## Comandos usando Postgres
+Não sei se são comandos gerais ou só pelo ubuntu, mas vou anotar os comandos depois de baixar, etc
+
+psql - ativa os postgres
+\password (nome do usuario) - vc muda a senha 
+
+sudo -u postgres psql - entrar no postgres (acho que quando ja criado)
+\l - listar todos os databases
+CREATE DATABASE (nome do database)- autoexplicativo
+\c (nome do database) - conectando ao database
+\dt - exibir as tabelas do database
+CREATE TABLE funcionários (id SERIAL PRIMARY KEY, name VARCHAR(50), birth DATE) - cria uma tabela com nome **funcionários**, id serial(identificador da tabela), daí em diante são as colunas que eu posso criar
